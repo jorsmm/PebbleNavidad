@@ -1,0 +1,27 @@
+{
+    "author": "jorsmm@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "navidad",
+    "pebble": {
+        "displayName": "Navidad",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "message": 1,
+            "status": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "40270b26-1ef4-4126-88cd-04a526b2b4c8",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
