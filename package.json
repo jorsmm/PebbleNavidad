@@ -1,18 +1,38 @@
 {
     "author": "jorsmm@gmail.com",
-    "dependencies": {},
+    "dependencies": {
+        "pebble-clay": "^1.0.4"
+    },
     "keywords": [],
     "name": "navidad",
     "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
         "displayName": "Navidad",
         "enableMultiJS": true,
-        "messageKeys": {
-            "message": 1,
-            "status": 0
-        },
+        "messageKeys": [
+            "status",
+            "message",
+            "urlconsulta",
+            "urlnavon",
+            "urlnavoff",
+            "configurlconsulta",
+            "configurlnavon",
+            "configurlnavoff",
+            "configure"
+        ],
         "projectType": "native",
         "resources": {
-            "media": []
+            "media": [
+                {
+                    "file": "images/icon",
+                    "menuIcon": true,
+                    "name": "icon",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
         },
         "sdkVersion": "3",
         "targetPlatforms": [
